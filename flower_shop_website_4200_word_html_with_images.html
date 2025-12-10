@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bloom & Joy — Artisanal Flower Shop</title>
+  <meta name="description" content="Bloom & Joy — handcrafted bouquets, same-day delivery, wedding and corporate floral design. Located in the heart of the city.">
+  <style>
+    :root{--accent:#C94C4C;--muted:#666;--bg:#fff;--card:#faf8f6;font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial}
+    body{margin:0;background:var(--bg);color:#222;line-height:1.6}
+    header{background:linear-gradient(90deg,#ffeef0,#fff);padding:36px 24px;border-bottom:1px solid #eee}
+    .container{max-width:1100px;margin:0 auto;padding:24px}
+    h1{font-size:34px;margin:0 0 6px}
+    p.lead{font-size:18px;color:var(--muted);margin:0}
+    nav{margin-top:18px}
+    nav a{margin-right:14px;color:var(--accent);text-decoration:none;font-weight:600}
+    .hero{display:grid;grid-template-columns:1fr 420px;gap:24px;align-items:center;margin-top:32px}
+    .card{background:var(--card);padding:18px;border-radius:12px;box-shadow:0 6px 20px rgba(0,0,0,0.03)}
+    img.responsive{width:100%;height:auto;border-radius:8px}
+    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:18px}
+    .full-width{grid-column:1/-1}
+    h2{color:#1f2937;margin:0 0 10px}
+    ul{padding-left:1.1rem}
+    footer{background:#f6f6f7;padding:28px 24px;margin-top:40px;border-top:1px solid #eee}
+    .cta{display:inline-block;background:var(--accent);color:#fff;padding:10px 16px;border-radius:8px;text-decoration:none;font-weight:700}
+    .flex{display:flex;gap:12px;align-items:center}
+    .price{font-weight:800;color:var(--accent)}
+    .tag{display:inline-block;background:#fff;border:1px solid #eee;padding:6px 10px;border-radius:999px;font-size:13px}
+    @media (max-width:900px){.hero{grid-template-columns:1fr;}.grid{grid-template-columns:1fr}.container{padding:12px}}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Bloom & Joy</h1>
+      <p class="lead">Handcrafted bouquets, seasonal arrangements & floral design — created with care and delivered with a smile.</p>
+      <nav>
+        <a href="#shop">Shop</a>
+        <a href="#weddings">Weddings</a>
+        <a href="#corporate">Corporate</a>
+        <a href="#blog">Blog</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div>
+        <div class="card">
+          <h2>Fresh flowers, daily — curated by local artisans</h2>
+          <p>At Bloom & Joy we believe flowers are a language. Our team hand-selects blooms each morning from sustainable growers and local markets so every arrangement feels alive, balanced and true to the season. Whether you want a thoughtful 'just because' bouquet, a lush wedding installation or a monthly corporate subscription, our designers start with an idea and shape it into something tactile and memorable.</p>
+          <p>We use sustainably-sourced foliage, avoid unnecessary plastic, and prioritize fair trade blooms when possible. Every bouquet is arranged to travel well and to bloom for as long as possible in your care.</p>
+          <p><a class="cta" href="#shop">Shop seasonal bouquets</a></p>
+        </div>
+      </div>
+      <aside>
+        <img class="responsive" src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=1f8f1913b33f8d9f1cc3b7b590c0e0b9" alt="Bouquet on table">
+        <p style="font-size:13px;color:var(--muted);margin-top:8px">Photo: artisanal bouquet — seasonal roses and ranunculus.</p>
+      </aside>
+    </section>
+
+    <section id="shop">
+      <h2>Shop — Collections &amp; Bestsellers</h2>
+      <p>Our shop is organized around mood and occasion so it's easy to find the perfect flowers. Below are our core collections — each collection is available for same-day or scheduled delivery in the city, and nationwide shipping for selected options. Prices include artisan design time and eco-friendly packaging.</p>
+
+      <div class="grid">
+        <div class="card">
+          <h3>Everyday Joy</h3>
+          <img class="responsive" src="https://images.unsplash.com/photo-1551218808-94e220e084d2?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=7f9b5c2d88c3d3bd6fce1c5f8ba3f0cf" alt="Yellow and pink mixed bouquet">
+          <p>Bright, cheerful bouquets designed to make any day better. Expect ranunculus, daisies, spray roses and seasonal fillers. Sizes: Petite, Classic, Grande. From <span class="price">₹1,499</span>.</p>
+        </div>
+        <div class="card">
+          <h3>Romance &amp; Anniversary</h3>
+          <img class="responsive" src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=3b9a8e1d4f0e8d7d1b3b2a23d6a1b2f5" alt="Romantic roses bouquet">
+          <p>Classic and luxurious arrangements for romantic gestures. Rich garden roses, ranunculus and soft foliage. Add-ons: chocolate, personalized card, single-stem upgrade. From <span class="price">₹2,999</span>.</p>
+        </div>
+        <div class="card">
+          <h3>Sympathy &amp; Remembrance</h3>
+          <img class="responsive" src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=7e3c2c6ed0f6b9a1d6f8b8a2c6f4d7a5" alt="Simple white lilies arrangement">
+          <p>Thoughtful arrangements designed to honor and remember. Clean lines, soft whites and greens — lilies, chrysanthemums and eucalyptus. We offer hand-delivery for funeral homes and memorial services. From <span class="price">₹1,899</span>.</p>
+        </div>
+
+        <div class="card full-width">
+          <h3>Seasonal Spotlight</h3>
+          <p>Each season we announce a specially curated spotlight collection: spring pastels, summer abundance, autumnal textures, and winter whites. These collections highlight ingredients at their best and often include rare or limited-supply flowers. They are perfect for gifting and for events where you want a cohesive seasonal palette.</p>
+          <img class="responsive" src="https://images.unsplash.com/photo-1504198453319-5ce911bafcde?q=80&w=1600&auto=format&fit=crop&ixlib=rb-4.0.3&s=4c4a9b2e7b1e6c4f3b2e4a9f7c3b8d6a" alt="Seasonal bouquet with textured foliage">
+        </div>
+      </div>
+    </section>
+
+    <section id="weddings" style="margin-top:24px">
+      <h2>Weddings &amp; Events</h2>
+      <p>We love designing for weddings. Our wedding service ranges from simple bridal bouquets to full-event florals and installations. We take a collaborative approach: you tell us your vision, we translate it into a design that works with the venue, lighting and seasonality. Pricing is custom based on scale, flowers chosen and travel/installation complexity.</p>
+
+      <div class="grid">
+        <div class="card">
+          <h3>Consultation</h3>
+          <p>Start with a 60–90 minute consultation where we discuss color palette, preferred flowers, venue flow and budget. We'll prepare a mood board and sample sketches. The consultation fee is credited toward final order for bookings over ₹25,000.</p>
+        </div>
+        <div class="card">
+          <h3>Design &amp; Mockups</h3>
+          <p>We'll present a design proposal with sample images, sketches of arrangements, and a clear cost breakdown. Rush mockups and weekend consultations are available at a premium.</p>
+        </div>
+        <div class="card">
+          <h3>Installation &amp; Breakdown</h3>
+          <p>Full service installations are supervised by the lead designer. Our team handles on-site setup, finishing touches and post-event breakdown if requested. We work with venues to coordinate timing and access, and we carry liability insurance for larger events.</p>
+        </div>
+      </div>
+
+      <p style="margin-top:12px">Real wedding feature: <em>Priya &amp; Arjun</em> — a garden ceremony featuring coral peonies, cream roses and trailing ivy. The ceremony arch was hand-woven with driftwood and seasonal blooms, while reception tables were styled with low, lush centerpieces and candlelight. We particularly loved matching the bridesmaids' bouquets to the sari colors for an elegant, modern-meets-traditional look.</p>
+      <img class="responsive" src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1600&auto=format&fit=crop&ixlib=rb-4.0.3&s=8d3a4e4d2b6c7f1a2e3b4c5d6f7a8b9c" alt="Wedding arch with flowers">
+    </section>
+
+    <section id="corporate" style="margin-top:24px">
+      <h2>Corporate &amp; Subscription Services</h2>
+      <p>We partner with businesses to provide recurring florals, event installations, and tasteful gifts for clients and employees. Our subscription program is flexible — weekly, biweekly or monthly deliveries — and includes vase rental options and priority designer support for event add-ons.</p>
+
+      <div class="grid">
+        <div class="card">
+          <h3>Office Subscriptions</h3>
+          <p>Transform reception areas, conference rooms and open-plan workspaces with fresh arrangements. Subscriptions include installation (we place the arrangement where needed), routine pick-up of old blooms and a small maintenance kit to keep flowers fresher for longer.</p>
+        </div>
+        <div class="card">
+          <h3>Corporate Gifting</h3>
+          <p>Looking to impress a client or reward an employee? We offer tailored gifting with branded wrapping and custom messaging. Minimum order quantities apply for branded packaging.</p>
+        </div>
+        <div class="card">
+          <h3>Event Partnerships</h3>
+          <p>Our team has worked with product launches, gala dinners and press events. For large events we provide on-site design teams, transportation and timeline coordination with event managers.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="care" style="margin-top:24px">
+      <h2>Flower Care — help your blooms last longer</h2>
+      <p>Simple care steps dramatically increase vase life. The advice below is written for anyone who receives a bouquet — whether a delicate posy of ranunculus or a dramatic armful of sunflowers.</p>
+
+      <ol>
+        <li><strong>Trim stems</strong> — cut one to two centimeters at a 45° angle before placing stems in water. This increases water uptake and prevents stems from sitting flat against the bottom of the vase.</li>
+        <li><strong>Use clean water</strong> — refill the vase every two days with fresh, lukewarm water and a tiny amount of the flower food provided. Clean the vase between changes to remove bacterial growth.</li>
+        <li><strong>Remove foliage below the waterline</strong> — leaves in the water rot quickly and create bacteria which shortens vase life.</li>
+        <li><strong>Keep cool</strong> — flowers last longer away from direct sunlight, heat sources and ripening fruit. If possible, place arrangements in a cool location overnight.</li>
+        <li><strong>Re-trim and rearrange</strong> — for long-lasting centerpieces, re-trim stems every 3–4 days and reposition fading blooms to the back while trimming the stems to balance the design.</li>
+      </ol>
+
+      <p>For specific flowers: tulips continue to grow in the vase and may need to be re-trimmed more often; lilies often require removal of pollen sacs to prevent staining; eucalyptus benefits from occasional misting to keep leaves supple.</p>
+    </section>
+
+    <section id="blog" style="margin-top:24px">
+      <h2>Stories from the Studio</h2>
+      <p>Our blog shares seasonal inspiration, how-to guides, behind-the-scenes moments and interviews with growers. Below are recent highlights that are both practical and beautiful — perfect if you love learning more about what goes into each arrangement.</p>
+
+      <div class="grid">
+        <div class="card">
+          <h3>How to Choose Wedding Flowers on a Budget</h3>
+          <p>Using seasonal greenery and repetition can create a cohesive look without the premium price tag. Consider statement bouquets and simpler table centerpieces to keep costs manageable.</p>
+        </div>
+        <div class="card">
+          <h3>Meet the Growers</h3>
+          <p>We visit small farms to source unique varieties. This month we feature a family farm that specializes in scented stock and old-fashioned garden roses — the kind that turn heads and perfume a room.</p>
+        </div>
+        <div class="card">
+          <h3>DIY: Rustic Table Runner</h3>
+          <p>A step-by-step guide to creating a low, natural table runner using mixed foliage, seasonal blooms and handfuls of moss — great for brunches and intimate dinners.</p>
+        </div>
+      </div>
+
+      <p style="margin-top:12px">Want to see more long-form pieces? We publish new stories every two weeks and collect our favorite seasonal posts in a printable booklet for event clients.</p>
+    </section>
+
+    <section id="faq" style="margin-top:24px">
+      <h2>FAQ — quick answers</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Do you deliver same-day?</h3>
+          <p>Yes — same-day delivery is available for orders placed before 2:00 PM local time. We also offer scheduled delivery windows for weddings and events. Contact us for details and rush delivery fees.</p>
+        </div>
+        <div class="card">
+          <h3>Can I request specific flowers?</h3>
+          <p>Absolutely. We do our best to accommodate requests, though availability depends on season and supplier stock. Substitutions of equal or higher quality may be used when necessary.</p>
+        </div>
+        <div class="card">
+          <h3>What payment methods do you accept?</h3>
+          <p>We accept major credit cards, net banking, UPI and gift cards. For large corporate orders we can invoice on request with approved credit terms.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="testimonials" style="margin-top:24px">
+      <h2>What customers say</h2>
+      <div class="grid">
+        <div class="card">
+          <p>"Beautiful bouquet and fast delivery. The colors were even more vibrant in person. Will order again!" — <strong>Anika R.</strong></p>
+        </div>
+        <div class="card">
+          <p>"Bloom & Joy did our wedding flowers and exceeded expectations. The arrangements felt modern and timeless." — <strong>Rahul S.</strong></p>
+        </div>
+        <div class="card">
+          <p>"Professional, warm and creative. The office subscription has brightened our lobby every week." — <strong>Divya M., Office Manager</strong></p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" style="margin-top:24px">
+      <h2>Contact &amp; Store Info</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Visit Us</h3>
+          <p>Bloom & Joy
+            <br>123 Garden Lane
+            <br>City Center — Open Tue–Sun, 9:30 AM–6:30 PM
+          </p>
+          <p><span class="tag">Phone</span> +91 98765 43210<br><span class="tag">Email</span> hello@bloomandjoy.example</p>
+        </div>
+        <div class="card">
+          <h3>Send a Message</h3>
+          <form action="#" method="post">
+            <p><label>Name<br><input name="name" style="width:100%;padding:8px;margin-top:6px;border-radius:6px;border:1px solid #ddd"></label></p>
+            <p><label>Email<br><input name="email" style="width:100%;padding:8px;margin-top:6px;border-radius:6px;border:1px solid #ddd"></label></p>
+            <p><label>Message<br><textarea name="message" rows="6" style="width:100%;padding:8px;margin-top:6px;border-radius:6px;border:1px solid #ddd"></textarea></label></p>
+            <p><button class="cta" type="submit">Send message</button></p>
+          </form>
+        </div>
+        <div class="card">
+          <h3>Find Us Online</h3>
+          <p>Follow our Instagram for daily arrangements, behind-the-scenes stories and seasonal previews. We also have Pinterest boards for colour palettes, and a newsletter with exclusive discounts.</p>
+          <p><a href="#" class="tag">Instagram</a> <a href="#" class="tag">Pinterest</a> <a href="#" class="tag">Newsletter</a></p>
+        </div>
+      </div>
+    </section>
+
+    <section id="policies" style="margin-top:24px">
+      <h2>Policies</h2>
+      <p><strong>Refunds &amp; Replacements:</strong> If an item arrives damaged or significantly different from what was ordered, contact us within 24 hours and we will arrange a replacement or refund after reviewing photos.</p>
+      <p><strong>Privacy:</strong> We never sell personal information. Customer data is used only for order fulfillment and service communications. For full details see our privacy policy page.</p>
+    </section>
+
+    <footer>
+      <div class="container">
+        <p>&copy; <span id="year">2025</span> Bloom & Joy — All rights reserved.</p>
+        <p style="font-size:13px;color:var(--muted)">Made with love in the city. For custom requests or press inquiries, email hello@bloomandjoy.example.</p>
+      </div>
+    </footer>
+  </main>
+
+  <script>
+    // small helpers
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
